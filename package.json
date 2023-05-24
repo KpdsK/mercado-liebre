@@ -4,7 +4,8 @@
   "description": "Desafio Modulo 4 DH",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "nodemon src/index.js",
+    "start": "node src/index.js"
   },
   "author": "Pablo Scalora",
   "license": "ISC",
