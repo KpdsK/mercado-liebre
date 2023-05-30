@@ -179,13 +179,6 @@
     </footer>
     <script>
         function irA(destino) {
-            // var reader = new FileReader();
-            // reader.readAsText(destino);
-            // let main = document.getElementById("main");
-            // console.log(main);
-            // console.log(reader.result);
-            // main.innerHTML = reader.result;
-            // document.getElementById("main").setHTML(destino, { sanitizer: new Sanitizer() });
             fetch(destino)
                 .then(response => response.text())
                 .then(data => document.getElementById("main").innerHTML = data);

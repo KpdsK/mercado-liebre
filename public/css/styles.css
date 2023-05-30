@@ -32,7 +32,7 @@
 }
 
 .titulares {
-    font-size: 24px;
+    font-size: 6vw;
 }
 
 .precios {
@@ -176,7 +176,8 @@ main article .descripciones {
 .logo {
     flex-grow: 2;
     max-width: 250px;
-    min-width: 160px;
+    width: 40vw;
+    /* min-width: 160px; */
 }
 
 .product-price-discount {
@@ -231,6 +232,7 @@ main section article {
 .compra-cuotas {
     display: flex;
     align-items: center;
+    font-size: 4vw;
 }
 
 form[type="search"] {
@@ -240,6 +242,7 @@ form[type="search"] {
     border-radius: 5px;
     margin: 10px 0 30px 10px;
     max-width: 310px;
+    width: 40vw;
     border: none;
     background-color: white;
 }
@@ -265,6 +268,10 @@ button[type="submit"] {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+}
+
+.flex-container-products article img {
+    width: 90vw;
 }
 
 header {
@@ -356,6 +363,18 @@ footer article {
 
     header p {
         font-size: 12px;
+    }
+
+    .compra-cuotas {
+        font-size: 14px;
+    }
+    
+    .titulares {
+        font-size: 24px;
+    }
+    
+    .flex-container-products article img {
+        max-width: 260px;
     }
 }
 
