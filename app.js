@@ -16,7 +16,7 @@ app.get('/login', function (req, res) {
     res.sendFile(path.join(__dirname, '/views/login.html'));
 });
 
-app.get('/404', (req, res)=>{
+app.get('/*', (req, res)=>{
     res.send('Error página no encontrada')
 });
 
