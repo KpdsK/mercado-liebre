@@ -1,5 +1,5 @@
 <div class="registro">
-    <form action="registro" class="register-form">
+    <form action="login" class="register-form">
         <input type="text" placeholder="Nombre y Apellido">
         <input type="text" placeholder="Nombre Usuario">
         <input type="email" placeholder="Correo electrónico">
@@ -9,7 +9,7 @@
         </div>
         <input type="text" placeholder="Docmicilio">
         <div class="perfil-usuario">
-            <legend>perfil de Usuario</legend>
+            <legend>Perfil de Usuario</legend>
             <div class="radio">
                 <div>
                     <input type="radio" name="perfil" id="comprador">
@@ -54,8 +54,8 @@
             <input type="password" name="confirm" id="clave" placeholder="Confirme Clave">
         </div>
         <div class="botones">
-            <input type="button" name="enviar" id="enviar" value="Enviar">
-            <input type="button" name="limpiar" id="limpiar" value="Limpiar">
+            <input type="button" onclick="irA('login')" name="enviar" id="enviar" value="Enviar">
+            <input type="button" onclick="resetform('register-form')" name="limpiar" id="limpiar" value="Limpiar">
         </div>
     </form>
 </div>

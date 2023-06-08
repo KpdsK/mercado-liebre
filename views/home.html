@@ -20,7 +20,7 @@
                 <div class="logo">
                     <a href="/">
                         <img src="/images/logo-mercado-liebre.svg" alt="LogoMercadoLiebre">
-                     </a>
+                    </a>
                 </div>
                 <form type="search">
                     <input type="search" placeholder="Buscar productos, marcas">
@@ -156,25 +156,26 @@
     <footer>
         <section>
             <div class="articulos-pie">
-            <article>
-                <i class="fas fa-credit-card celeste"></i>
-                <p><b class="descripciones">Pagá con tarjeta o en efectivo</b></p>
-                <p class="cuerposTexto">Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en
-                    puntos de pago. ¡Y siempre es seguro!</p>
-            </article>
-            <article>
-                <i class="fas fa-gift celeste"></i>
-                <p><b class="descripciones">Envío gratis desde $ 2.500</b></p>
-                <p class="cuerposTexto">Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de
-                    productos. Es un beneficio de Mercado Puntos.</p>
-            </article>
-            <article>
-                <i class="fas fa-shield-alt celeste"></i>
-                <p><b class="descripciones">Seguridad, de principio a fin</b></p>
-                <p class="cuerposTexto">¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer,
-                    porque estás siempre protegid@.</p>
-            </article>
-        </div>
+                <article>
+                    <i class="fas fa-credit-card celeste"></i>
+                    <p><b class="descripciones">Pagá con tarjeta o en efectivo</b></p>
+                    <p class="cuerposTexto">Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en
+                        puntos de pago. ¡Y siempre es seguro!</p>
+                </article>
+                <article>
+                    <i class="fas fa-gift celeste"></i>
+                    <p><b class="descripciones">Envío gratis desde $ 2.500</b></p>
+                    <p class="cuerposTexto">Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de
+                        productos. Es un beneficio de Mercado Puntos.</p>
+                </article>
+                <article>
+                    <i class="fas fa-shield-alt celeste"></i>
+                    <p><b class="descripciones">Seguridad, de principio a fin</b></p>
+                    <p class="cuerposTexto">¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas
+                        hacer,
+                        porque estás siempre protegid@.</p>
+                </article>
+            </div>
             <p class="alignLeft cuerposTexto copyright">Copyright © 1999-2020 MercadoLiebre S.R.L.</p>
         </section>
 
@@ -185,6 +186,11 @@
                 .then(response => response.text())
                 .then(data => document.getElementById("main").innerHTML = data);
         }
+
+        function resetform(formName) {
+            document.getElementsByClassName(formName)[0].reset();
+        }
+
     </script>
 </body>
 

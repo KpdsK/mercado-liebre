@@ -319,6 +319,10 @@ footer article {
     background-color: #0022AA;
 }
 
+#limpiar:hover {
+    background-color: #e7167f;
+}
+
 .copyright {
     margin-top: 20px;
     text-align: center;
