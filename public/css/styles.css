@@ -290,6 +290,11 @@ header nav {
     display: none;
 }
 
+header nav li,
+.compra-cuotas {
+    cursor: pointer;
+}
+
 header p {
     font-size: 14px;
 }
