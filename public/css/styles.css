@@ -290,8 +290,7 @@ header nav {
     display: none;
 }
 
-header nav li,
-.compra-cuotas {
+header nav li {
     cursor: pointer;
 }
 
